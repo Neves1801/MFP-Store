@@ -7,7 +7,16 @@ body {
     border: 9px solid #111111;
 }
 
-h1 {
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.título-principal {
+    padding-left: 20px;
+}
+
+.título-centralizado {
     text-align: center;
 }
 
@@ -21,4 +30,24 @@ p {
 
 em strong {
     color:cyan;
+}
+
+.itens {
+	font-style: italic
+}
+
+.benefícios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembenefícios {
+    width: 50%;
 }
